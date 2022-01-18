@@ -1,35 +1,28 @@
 " use strict ";
 
-// види змінних
-console.log(leftBorderWidth);
+let num = 50;
 
-var leftBorderWidth = 1;
-let second = 2;
-const pi = 3.14;
-
-console.log(leftBorderWidth);
-console.log(second);
-console.log(pi);
-
-
-let something;
-console.log(something);
-
-
-// obuect
-let mas = {
-    name: "Jon",
-    age: 18,
-    isMaried: true
+if (num < 49) {
+    console.log('wrong')
+} else if (num > 100) {
+    console.log('so big')
+} else {
+    console.log('good')
 };
-console.log(mas);
-console.log(mas.age);
-console.log(mas["name"]);
 
+(num == 50) ? console.log("good") : console.log("not");
 
-// masiv
-let arr = ['bob', 'fog', 'nom'];
-
-console.log(arr);
-console.log(arr[0]);
-
+switch (num) {
+    case num < 49:
+        console.log("no");
+        break;
+    case num > 100:
+        console.log("to-big");
+        break;
+    case 50:
+        console.log("good");
+        break;
+    default:
+        console.log("upss");
+        break;
+}
