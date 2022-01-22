@@ -1,6 +1,27 @@
 @charset "UTF-8";
 /*Обнуление*/
 /*--------------------*/
-p{
-  font-size: 35px;
+
+.test {
+  font-size: 30px;
+  background-color: cyan;
+  text-transform: uppercase;
+  border-radius: 15px;
+  padding: 0px 15px 0px 15px;
+}
+
+.one {
+  color: antiquewhite;
+  text-align: start;
+}
+.one:hover{
+  text-align: center;
+}
+
+.two {
+  color: blueviolet;
+  text-align: end;
+}
+.two:hover{
+  text-align: center;
 }
